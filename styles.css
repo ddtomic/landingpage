@@ -1,5 +1,24 @@
+/*All content for top part of page (headers) */
 .container-1{
-    border: 2px solid white;
-    background-color: red;
     display: flex;
+    justify-content: space-between;
+
+    background-color: #1F2937;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
 }
+
+.item-1{
+    padding: 15px 10px;
+    flex-grow: 2;
+}
+
+.item-links{
+    border: 2px solid red;
+    margin-right: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #E5E7EB
+}
+
