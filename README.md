@@ -1,1 +1,1 @@
-# landingpage
+This project is a landing page for a website. This is the first website I have styled with CSS. the website looks good on fullscreen, however it behaves weirdly when shrinking the window. In the future I need to work on flex elements to make the website behave better on smaller screens/ smaller windows. 
