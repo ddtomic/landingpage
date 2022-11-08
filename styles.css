@@ -45,7 +45,7 @@ ul{
     display:flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 
@@ -79,7 +79,7 @@ ul{
     background-color: #3882F6;
     border: none;
     width: 17%;
-    margin-top:5px;
+    margin-top:11px;
     color: white;
     border-radius: 4px;
     padding: 5px 10px 4px;
@@ -88,18 +88,29 @@ ul{
 /*All content for 4 images with text underneath them.*/
 .container-3{
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
-    justify-content: center;
     justify-content: space-between;
     padding-bottom: 120px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
+
+.images-with-text{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 #image-header{
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top:120px;
+    margin-bottom: 40px;
     padding: 35px;
 }
 
@@ -110,6 +121,90 @@ ul{
     height: 150px;
     border: 4px solid #3882F6;
     border-radius: 18px;
+    background-image: url(images/arnold.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:10px;
+
 }
+
+/*All content for third part of page with quote */
+
+#quote{
+    padding-top: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+#arnold{
+    display: flex;
+    justify-content: right;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding-right: 200px;
+    font-size: 45px;
+    font-weight: 300;
+    color: #1F2937;
+    padding-bottom: 80px
+}
+
+.empty-div{
+    height: 100px;
+}
+
+/*below is all content for bottom sign up portion*/
+
+
+.container-4{
+    display: flex;
+    justify-content: center;
+}
+
+.nest{
+    display: flex;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.part-1{
+    color:#F9FAF8;
+}
+h4{
+    color:#F9FAF8;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+#signup-text{
+    color: #F9FAF8;
+}
+
+.part-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    height: 20px;
+    border: 2px solid white;
+    margin-top:20px;
+    border-radius: 3px;
+}
+
+#button2{
+    width: 80px;
+    height: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+
+}
+
+
 
 
